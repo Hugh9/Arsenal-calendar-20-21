@@ -1,0 +1,78 @@
+* {
+    font-family: monospace;
+}
+
+body {
+  background-color: red;
+  background-image: url(https://www.insidesport.com/upload/arsenal-football-club.jpg);
+  
+  background-size: auto;
+}
+
+h1 {
+text-align: center;
+color: white;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+    border-radius: 15px;
+    background-color: white;
+    background-image: url(https://img.fifa.com/image/upload/t_l1/fs6thc0nhkfzgi56ai8v.jpg);
+    padding: 5px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 15px;
+    text-align: left;
+    opacity: 100%;
+  }
+
+  #international, #keyint{
+    background-color: yellow;
+    background-image: url(https://wallpapercave.com/wp/wp6097392.png);
+    
+  }
+
+  #eflcup, #keyefl {
+    background-color: red;
+    background-image: url(https://wallpapercave.com/wp/wp6097379.png);
+  }
+
+  #facup, #keyfa {
+    background-color: rgb(15, 247, 65);
+    background-image: url(https://fsa.zobj.net/crop.php?r=tgesb6jMuvs-m6QptH4i3xqGyp4PWL5m7HeAitXYl5l9VEW4_h0Bzp2Gw3Juw91odR3hbX8s0p9aCINQJKXi2iZ9liEcWfOj8-EvrlaW1hsQ4Ai5IuXXRC4j95aKZieHMi03JeJFnA2hIgoO)
+  }
+
+  #europa, #keyel{
+    background-color: rgba(72, 184, 228, 0.808);
+    background-image: url(https://wallpapercave.com/wp/wp4438338.jpg);
+    background-position: 0%;
+  }
+
+  #month {
+    background-color: black;
+    background-image: url(https://preview.redd.it/jhzasm5paw351.png?width=640&crop=smart&auto=webp&s=986c8a8197fae45beb7d4d41641c68add8074131);
+    color: white;
+  }
+   
+  #prem, #keyprem{
+    background-color: blanchedalmond;
+    background-image: url(https://preview.redd.it/1n319h6k2on51.jpg?width=759&format=pjpg&auto=webp&s=e2f010bc84a2fe1b9908c4bfdcc1bb672ecf230c);
+  }
+
+  #keyprem, #keytitle, #keyel, #keyfa, #keyefl, #keyint{
+    text-align: center;
+  }
+  #keytitle {
+      background-color: rgb(211, 24, 228);
+      
+  } 
+  
