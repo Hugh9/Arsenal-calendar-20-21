@@ -1,11 +1,10 @@
 * {
-    font-family: monospace;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 body {
   background-color: red;
   background-image: url(https://www.insidesport.com/upload/arsenal-football-club.jpg);
-  
   background-size: auto;
 }
 
