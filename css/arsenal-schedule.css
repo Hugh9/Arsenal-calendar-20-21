@@ -1,9 +1,9 @@
 * {
-    font-family: arial;
+    font-family: arial black !important;
 }
 
 body {
-  background-color: red;
+  background-color: red; 
   background-image: url(https://www.insidesport.com/upload/arsenal-football-club.jpg);
   background-size: auto;
 }
